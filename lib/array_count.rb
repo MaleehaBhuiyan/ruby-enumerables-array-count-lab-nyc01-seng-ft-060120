@@ -13,7 +13,7 @@ end
 
 def count_empty_strings(array)
   total = 0
-  array. any do |empty|
+  array.any? do |empty|
     empty = " "
     total += 1
   end
