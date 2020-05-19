@@ -1,14 +1,13 @@
 def count_strings(array)
-  counter = 0
   total = 0
-
-  while counter < array.length do
+  counter = 0
+  while counter < array.count do
     if array[counter].is_a(String)?
       total += 1
     end
     counter += 1
   end
-    total
+  total
 end
 
 def count_empty_strings(array)
